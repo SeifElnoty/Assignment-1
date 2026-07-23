@@ -1,0 +1,17 @@
+1. Difference between forEach and for...of
+forEach loops through arrays only. for...of loops through arrays and lets me use break and continue. I use for...of when I need more control.
+
+2. Hoisting & TDZ
+Hoisting means var is moved to the top, so it gives undefined before declaration.
+TDZ is for let and const. Using them before declaration gives an error.
+
+3. == vs ===
+== compares values and can change the type.
+=== compares both value and type.
+
+4. try-catch
+try runs the code, and catch handles errors if they happen. It's useful in async code to prevent the app from crashing.5. Type conversion vs coercion
+
+5. Type conversion vs coercion
+Type conversion: I change the type myself.
+Coercion: JavaScript changes the type automatically.
